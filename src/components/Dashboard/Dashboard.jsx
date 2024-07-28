@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Dashboard = () => {
     return (
         <div>
+            <Navbar />
             <p>Dashboard</p>
             <div>
                 <div class="card" style={{width: '12rem', border:'1px solid black'}}>

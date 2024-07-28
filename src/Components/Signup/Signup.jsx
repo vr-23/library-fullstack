@@ -1,10 +1,8 @@
 import React from 'react'
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
-import { Avatar, Button, Checkbox, FormControlLabel, Link, TextField, Typography } from '@mui/material';
-import '../Styles/login.css'
+import { Button, Link, TextField } from '@mui/material';
+import '../Login/login.css'
 
 const Signup = () => {
   const paperStyle={padding:20,height:'70vh',width:400, margin:"20px auto"}
