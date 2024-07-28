@@ -5,6 +5,7 @@ import Signup from '../Signup/Signup';
 import Dashboard from '../Dashboard/Dashboard';
 import Cart from '../Cart/Cart';
 import AddBook from '../AddBook/AddBook';
+import MyLibrary from '../MyLibrary/MyLibrary';
 // import SignUp from './Components/Signup';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/AddBook" element={<AddBook />} />
+          <Route path="/myLibrary" element={<MyLibrary />} />
         </Routes>
 
       </BrowserRouter>
