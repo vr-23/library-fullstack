@@ -22,9 +22,11 @@ const Navbar = () => {
       </div>
 
       <div name="leftpane">
-        <Link className={'mr-3'} to={"/AddBook"}>Add Book</Link>
-        <Link className={'mr-3'} to={"/MyLibrary"}>My Library</Link>
-        <Link className={'mr-3'} to={"/carticon"}>carticon</Link>
+        <Link className={'mr-3 color'} to={"/AddBook"}>Add Book</Link>
+        <Link className={'mr-3 color'} to={"/MyLibrary"}>My Library</Link>
+        <Link className={'mr-3 color'} to={"/Cart"}>carticon</Link>
+        <Link className={'mr-3 color'} to={"/Signup"}>Signup</Link>
+        <Link className={'mr-3 color'} to={"/SignIn"}>SignIn</Link>
       </div>
     </div>
   );
