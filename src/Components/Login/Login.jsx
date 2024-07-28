@@ -1,13 +1,8 @@
 import React from 'react'
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
-<<<<<<< HEAD:src/Components/Login/Login.jsx
 import { Button, Checkbox, FormControlLabel, Link, TextField, Typography } from '@mui/material';
 import './login.css'
-=======
-import { Avatar, Button, Checkbox, FormControlLabel, Link, TextField, Typography } from '@mui/material';
-import  '../Styles/login.css'
->>>>>>> kalpana:src/Components/Login.jsx
 
 const Login = () => {
   const paperStyle={padding:20,height:'70vh',width:400, margin:"20px auto"}
