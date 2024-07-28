@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
 const Dashboard = () => {
-    return (
+    return ( 
         <div>
             <Navbar />
             <p>Dashboard</p>
