@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Signup from '../Signup/Signup';
 import Dashboard from '../Dashboard/Dashboard';
 import AddBook from '../AddBook/AddBook';
+import MyLibrary from '../MyLibrary/MyLibrary';
 // import SignUp from './Components/Signup';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/SignIn" element={<Login />} />
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/AddBook" element={<AddBook />} />
+          <Route path="/myLibrary" element={<MyLibrary />} />
         </Routes>
 
       </BrowserRouter>

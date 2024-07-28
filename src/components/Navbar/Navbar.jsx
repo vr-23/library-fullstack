@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <div name="leftpane">
         <Link className={'mr-3'} to={"/AddBook"}>Add Book</Link>
-        <Link className={'mr-3'} to={"myLibrary"}>My Library</Link>
+        <Link className={'mr-3'} to={"/MyLibrary"}>My Library</Link>
         <Link className={'mr-3'} to={"/carticon"}>carticon</Link>
       </div>
     </div>
