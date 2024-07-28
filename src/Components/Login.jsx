@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Avatar, Button, Checkbox, FormControlLabel, Link, TextField, Typography } from '@mui/material';
-import '../Styles/login.css'
+import  '../Styles/login.css'
 
 const Login = () => {
   const paperStyle={padding:20,height:'70vh',width:400, margin:"20px auto"}
@@ -21,13 +21,13 @@ const Login = () => {
             </h2>
           </Grid>
           
-          <TextField id="outlined-basic" label="Email" sx={{ paddingBottom: '20px' }}fullWidth required />
+          <TextField id="outlined-basic" label="Email" sx={{ paddingBottom: '20px' }} fullWidth required />
           <TextField   label="Password" fullWidth required />
           <FormControlLabel
         control={<Checkbox name="rememberMe" />}
         label="Remember Me"
       />
-      <Button variant="contained" size="medium" fullWidth>
+      <Button variant="contained" href="Dashboard" size="medium" fullWidth>
           Sign In
         </Button>
         <Typography>

@@ -17,7 +17,7 @@ const Signup = () => {
       <Paper elevation={10} style={paperStyle}>
         <Grid >
            <h2>
-              Sign In
+              Sign Up
             </h2>
           </Grid>
           
