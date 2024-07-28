@@ -8,14 +8,6 @@
     flex:1;
 }
 
-.Cart {
-    color :white
-}
-
-.Profile{
-    color :white
-}
-
-.MyLibrary{
-    color :white
+.color{
+    color: #ffffff;
 }
